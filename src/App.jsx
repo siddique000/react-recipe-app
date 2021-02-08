@@ -9,8 +9,8 @@ import NotFound from './components/NotFoundPage'
 
 
 const App = () => {
-  const APP_ID = "d113dfd7";
-  const APP_KEY = "a419de6a4769cc5bde096a63176424ad";
+  const APP_ID = "YOUR_APP_ID";
+  const APP_KEY = "YOUR_APP_KEY";
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
